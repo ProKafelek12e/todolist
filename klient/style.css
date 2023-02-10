@@ -1,3 +1,37 @@
 body{
-    background-color: aquamarine;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-areas: "menu content";
+    overflow-y: hidden;
+    background-color: aqua;
+    height: 100vh;
+}
+#menu{
+    grid-area: menu;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+#content{
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    align-items: center;
+}
+.div{
+    height: 90px;
+    width: 80%;
+    margin-top: 15px;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 25px;
+}
+#bt{
+    height: 90px;
+    width: 90px;
+    border-radius: 180px;
+    cursor: pointer;
 }
