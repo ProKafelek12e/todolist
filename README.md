@@ -2,6 +2,6 @@
 1. Delete button
 2. Better look
 3. Saving tasks
-4. Undone/doone
-5. Time remaining
-6. Who wrote it
+4. Undone/done
+5. Time remaining for the task
+6. Sender
