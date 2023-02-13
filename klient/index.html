@@ -6,11 +6,27 @@
     <title>Todo List</title>
 </head>
 <body>
-    <div id="menu">
-        <input id="inp">
-        <button id="bt" onclick="addTask()"></button>
+    <div id="head">
+
     </div>
-    <div id="content"></div>
+    
+    <div id="menu">
+        <div id="inputs">
+            <div>
+                <input id="inp">   
+            </div>
+            <div>
+                <input type="time" id="time">
+                <input id="Date" type="date">
+            </div>        
+        </div>
+        
+        
+        <button id="bt" onclick="addTask()">+</button>
+    </div>
+    <div id="content">
+
+    </div>
 
     <script src="config.js"></script>
     <script src="app.js"></script>
